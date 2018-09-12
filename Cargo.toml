@@ -5,3 +5,4 @@ authors = ["Ruben Paz <me@ruben.io>"]
 
 [dependencies]
 clap = "2.32.0"
+console = "0.6.2"
