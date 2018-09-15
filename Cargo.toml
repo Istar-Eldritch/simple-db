@@ -3,6 +3,18 @@ name = "simple-db"
 version = "0.1.0"
 authors = ["Ruben Paz <me@ruben.io>"]
 
+[lib]
+
+name = "simpledb"
+path = "src/simpledb/lib.rs"
+
+[[bin]]
+
+name = "simpledb"
+path = "src/bin/simpledb.rs"
+doc = false
+test = false
+
 [dependencies]
 clap = "2.32.0"
 console = "0.6.2"
